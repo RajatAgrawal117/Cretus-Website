@@ -1,0 +1,103 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 5061px;
+
+    background: #131313;
+}
+
+.descp {
+    position: absolute;
+width: 1043px;
+height: 161px;
+left: 70px;
+top: 232px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+letter-spacing: 0.045em;
+
+color: #FFFFFF;
+
+}
+.head {
+    
+    position: absolute;
+    width: 1418px;
+    height: 128px;
+    left: -8px;
+    top: 588px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 375px;
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #1BD50B;
+
+}
+.nav {
+    position: flex;
+    flex-direction: column;
+    width: 1197px;
+    height: 82px;
+    left: 70px;
+    top: 30px;
+
+}
+h1 {
+    position: absolute;
+width: 1418px;
+height: 128px;
+left: -8px;
+top: 588px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 300px;
+line-height: 375px;
+text-align: center;
+letter-spacing: 0.045em;
+
+color: #1BD50B;
+}
+.rnd_title {
+    position: absolute;
+width: 381px;
+height: 113px;
+left: 45px;
+top: 1176px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 200;
+font-size: 60px;
+line-height: 130%;
+/* or 78px */
+color: #FFFFFF;
+}
+.comp_title {
+    position: absolute;
+width: 461px;
+height: 113px;
+left: 754px;
+top: 1176px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 200;
+font-size: 60px;
+line-height: 130%;
+/* or 78px */
+
+
+color: #FFFFFF;
+
+}
