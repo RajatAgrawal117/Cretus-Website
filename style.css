@@ -1,0 +1,347 @@
+.nav {
+    display: flex;
+
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: rgb(85, 222, 85);
+}
+
+
+.container {
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+    justify-content: space-around;
+    width: 600px;
+    height: fit-content;
+    border-radius: 20px;
+    margin-right: 150px;
+
+}
+
+.btn {
+    color: rgb(85, 222, 85);
+    border-radius: 5px;
+    height: 50px;
+    background-color: rgba(19, 19, 19, 255);
+    border-color: rgb(85, 222, 85);
+    border-width: 3px;
+    font-size: medium;
+    padding: 10px;
+
+}
+
+.quad {
+    width: 50%;
+    position: relative;
+
+}
+
+.txt {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+    font-size: 300%;
+    color: white;
+
+}
+
+.web {
+    display: flex;
+    color: white;
+    background-color: green;
+    justify-content: space-around;
+    font-size: 150%;
+    margin-top: -5px;
+
+}
+
+.btn1 {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    align-self: center;
+    border-color: white;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.comp {
+    display: flex;
+    size: 50%;
+    justify-content: space-between;
+}
+
+.RnD {
+    width: 49.5%;
+    height: 500px;
+    position: relative;
+}
+
+.Comp {
+    width: 49.5%;
+    height: 500px;
+    position: relative;
+
+}
+
+.txt1 {
+    position: absolute;
+    color: grey;
+    font-size: 200%;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.txt2 {
+    position: absolute;
+    color: grey;
+    margin-left: 52%;
+    margin-top: 30px;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.btn2 {
+    position: absolute;
+    margin: 30px;
+    margin-top: 400px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn3 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 400px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logo {
+
+    display: flex;
+    height: 100px;
+    margin-top: 150px;
+    color: white;
+    font-size: 350%;
+    justify-content: space-around;
+}
+
+.about {
+position: absolute;
+    width: 958px;
+    height: 50px;
+    left: 251px;
+    top: 1920px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.photo1{
+position: absolute;
+    width: 408px;
+    height: 241px;
+    left: 82px;
+    top: 2269px;
+/* 
+    transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.centered {
+position: absolute;
+    width: 232px;
+    height: 38px;
+    left: 97px;
+    top: 2288px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    /* transform: translate(-50%, -50%); */
+}
+.p1text{
+    position: absolute;
+        width: 378px;
+        height: 92px;
+        left: 97px;
+        top: 2349px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+}
+.photo2{
+position: absolute;
+    width: 408px;
+    height: 241px;
+    left: 516px;
+    top: 1998px;
+/* 
+    transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.centered2{
+    position: absolute;
+        width: 352px;
+        height: 38px;
+        left: 531px;
+        top: 2034px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
+}
+.p2text{
+    position: absolute;
+        width: 378px;
+        height: 92px;
+        left: 531px;
+        top: 2087px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+}
+.photo3{
+position: absolute;
+    width: 408px;
+    height: 241px;
+    left: 950px;
+    top: 2269px;
+
+}
+.centered3 {
+    position: absolute;
+        width: 325px;
+        height: 76px;
+        left: 972px;
+        top: 2299px;
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+    
+        color: #FFFFFF;
+}
+
+.p3text {
+position: absolute;
+    width: 378px;
+    height: 69px;
+    left: 972px;
+    top: 2388px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.robot1 {
+position: absolute;
+    width: 408px;
+    height: 272px;
+    left: 82px;
+    top: 1997px;
+}
+.workshop {
+    position: absolute;
+        width: 408px;
+        height: 272px;
+        left: 516px;
+        top: 2238px;
+}
+
+.robot2{
+    position: absolute;
+        width: 408px;
+        height: 272px;
+        left: 950px;
+        top: 1997px;
+}
+.gitbg{
+    position: absolute;
+        width: 1505px;
+        height: 216px;
+        left: -57px;
+        top: 2658px;
+
+        filter: blur(10px);
+}
+.top-left{
+position: absolute;
+    width: 715px;
+    height: 60px;
+    left: 81px;
+    top: 2674px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.gitlogo{
+position: absolute;
+    width: 260px;
+    height: 130px;
+    left: 870px;
+    top: 2713px;
+
+    background: url(image.png);
+}
+.gittext{
+    position: absolute;
+        width: 480px;
+        height: 200px;
+        left: 961px;
+        top: 2690px;
+    
+        background: url(image.png);
+}
